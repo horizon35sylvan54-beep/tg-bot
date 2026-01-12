@@ -10,7 +10,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def start(message: types.Message):
-    await message.answer("Бот работает 24/7 🚀")
+    await message.answer("Бот работает 24/7 🚀 (Render)")
 
 async def main():
     await dp.start_polling(bot)
